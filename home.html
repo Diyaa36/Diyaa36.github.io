@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Game Site</title>
+	<meta name="keywords" content="my game site, game,mini-game ,fun">
+    <style>
+      /* CSS styles go here */
+      body {
+        background-color: #f1f1f1;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #222;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+      }
+      #logo {
+        font-size: 36px;
+        font-weight: bold;
+      }
+      nav {
+        display: flex;
+      }
+      nav a {
+        color: white;
+        display: block;
+        margin: 0 10px;
+        padding: 10px;
+        text-decoration: none;
+      }
+      nav a:hover {
+        background-color: white;
+        color: #222;
+      }
+      main {
+        margin: 20px auto;
+        max-width: 800px;
+        padding: 20px;
+      }
+      h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+      }
+      label {
+        display: block;
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      input[type="submit"] {
+        background-color: #222;
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-size: 18px;
+        padding: 10px 20px;
+      }
+      input[type="submit"]:hover {
+        background-color: #555;
+      }
+      footer {
+        background-color: #222;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="logo"style="display: flex;font-size: 80px;">
+	  <img src="./asmo.png" width="100" height="100" class="logo" alt="My Game Site logo">
+	 <span style="margin-left: 10px";"> My Game Site</span>
+	  </div>
+      <nav>
+        <a href="#"style="display: flex; margin-top:20px; font-size: 25px;">Home</a> 
+		<a href="#"style="display: flex; margin-top:20px;font-size: 25px;">Comments</a>
+		<a href="#"style="display: flex;margin-top:20px;font-size: 25px;">Support</a>
+        <a href="#"style="display: flex;margin-top:20px;font-size: 25px;">About Us</a>
+       
+      
+      </nav>
+    </header>
+    <main>
+	<style>
+  body{
+    background-image: url("./body1.jpg");
+    background-size: cover;
+	background-width:100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+	width: 100%;
+	high:80%;
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+  
+}
+main{  font-size:41px;
+color:white;}
+
+
+</style>
+      <h1>Welcome to My Game Site</h1>
+      <p>Please select your age:</p>
+      <form>
+        <label for="age-1">
+          <input type="radio" id="age-1" name="age" value="under-18"> Under 18
+        </label>
+        <label for="age-2">
+          <input type="radio" id="age-2" name="age" value="18-or-older"> 18 or older
+        </label>
+        <input type="submit" value="Submit">
+      </form>
+    </main>
+    <footer >
+      &copy; 2023 My Game Site
+    </footer>
+  </body>
+</html>
